@@ -1,0 +1,13 @@
+D:\Files\Codes\GiFast\GiFast\bin\Debug\GiFast.exe.config
+D:\Files\Codes\GiFast\GiFast\bin\Debug\GiFast.exe
+D:\Files\Codes\GiFast\GiFast\bin\Debug\GiFast.pdb
+D:\Files\Codes\GiFast\GiFast\bin\Debug\zh-CN\GiFast.resources.dll
+D:\Files\Codes\GiFast\GiFast\obj\Debug\GiFast.csproj.AssemblyReference.cache
+D:\Files\Codes\GiFast\GiFast\obj\Debug\GiFast.GiFast.resources
+D:\Files\Codes\GiFast\GiFast\obj\Debug\GiFast.Properties.Resources.resources
+D:\Files\Codes\GiFast\GiFast\obj\Debug\GiFast.GiFast.zh-CN.resources
+D:\Files\Codes\GiFast\GiFast\obj\Debug\GiFast.csproj.GenerateResource.cache
+D:\Files\Codes\GiFast\GiFast\obj\Debug\GiFast.csproj.CoreCompileInputs.cache
+D:\Files\Codes\GiFast\GiFast\obj\Debug\zh-CN\GiFast.resources.dll
+D:\Files\Codes\GiFast\GiFast\obj\Debug\GiFast.exe
+D:\Files\Codes\GiFast\GiFast\obj\Debug\GiFast.pdb
