@@ -123,13 +123,16 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="fileText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 18</value>
+    <value>6, 20</value>
   </data>
   <data name="fileText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>408, 21</value>
+    <value>402, 21</value>
   </data>
   <data name="fileText.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="fileText.Text" xml:space="preserve">
+    <value>可拖拽文件到此处，支持多选</value>
   </data>
   <data name="&gt;&gt;fileText.Name" xml:space="preserve">
     <value>fileText</value>
@@ -138,16 +141,16 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;fileText.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;fileText.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="selectBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 18</value>
+    <value>428, 20</value>
   </data>
   <data name="selectBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 21</value>
+    <value>80, 21</value>
   </data>
   <data name="selectBtn.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -162,16 +165,26 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;selectBtn.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;selectBtn.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="exchangeBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="exchangeBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="exchangeBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 45</value>
+    <value>428, 70</value>
+  </data>
+  <data name="exchangeBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="exchangeBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 21</value>
+    <value>80, 25</value>
   </data>
   <data name="exchangeBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -186,16 +199,16 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;exchangeBtn.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;exchangeBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="jpegMode.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="jpegMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>379, 47</value>
+    <value>358, 75</value>
   </data>
   <data name="jpegMode.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 16</value>
@@ -213,16 +226,16 @@
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;jpegMode.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;jpegMode.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="pngMode.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="pngMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 47</value>
+    <value>301, 75</value>
   </data>
   <data name="pngMode.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 16</value>
@@ -240,9 +253,87 @@
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pngMode.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;pngMode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="barText1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="barText1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="barText1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 50</value>
+  </data>
+  <data name="barText1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="barText1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="barText1.Text" xml:space="preserve">
+    <value>进度：0%</value>
+  </data>
+  <data name="&gt;&gt;barText1.Name" xml:space="preserve">
+    <value>barText1</value>
+  </data>
+  <data name="&gt;&gt;barText1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;barText1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;barText1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 51</value>
+  </data>
+  <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 10</value>
+  </data>
+  <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Name" xml:space="preserve">
+    <value>progressBar1</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 102</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>gif拆分</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -252,9 +343,8 @@
     <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>538, 78</value>
+    <value>538, 128</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
