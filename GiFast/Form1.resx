@@ -190,7 +190,7 @@
     <value>2</value>
   </data>
   <data name="exchangeBtn.Text" xml:space="preserve">
-    <value>转换</value>
+    <value>开始</value>
   </data>
   <data name="&gt;&gt;exchangeBtn.Name" xml:space="preserve">
     <value>exchangeBtn</value>
@@ -258,6 +258,24 @@
   <data name="&gt;&gt;pngMode.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="barText1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="barText1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="barText1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 50</value>
+  </data>
+  <data name="barText1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="barText1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="barText1.Text" xml:space="preserve">
+    <value>进度：0%</value>
+  </data>
   <data name="&gt;&gt;barText1.Name" xml:space="preserve">
     <value>barText1</value>
   </data>
@@ -269,6 +287,15 @@
   </data>
   <data name="&gt;&gt;barText1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 51</value>
+  </data>
+  <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 10</value>
+  </data>
+  <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;progressBar1.Name" xml:space="preserve">
     <value>progressBar1</value>
@@ -307,57 +334,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 51</value>
-  </data>
-  <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>402, 10</value>
-  </data>
-  <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;progressBar1.Name" xml:space="preserve">
-    <value>progressBar1</value>
-  </data>
-  <data name="&gt;&gt;progressBar1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progressBar1.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;progressBar1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="barText1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="barText1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="barText1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>428, 50</value>
-  </data>
-  <data name="barText1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 12</value>
-  </data>
-  <data name="barText1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="barText1.Text" xml:space="preserve">
-    <value>进度：0%</value>
-  </data>
-  <data name="&gt;&gt;barText1.Name" xml:space="preserve">
-    <value>barText1</value>
-  </data>
-  <data name="&gt;&gt;barText1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;barText1.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;barText1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
